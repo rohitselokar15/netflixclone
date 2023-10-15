@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: rgb(39, 38, 38);
+    
+}
+
+.part1 {
+    background-image: linear-gradient(0deg, rgba(0,0,7,3.9),transparent 57%, rgba(0,0,0,2.8)),url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 10;
+    background-color: black;
+    height: 102vh;
+}
+
+.imgpart1 {
+    height: 90px;
+    margin-left: 37px;
+    margin-top: 13px
+}
+
+.part11 {
+    display: flex;
+}
+
+#language {
+    margin-left: 970px;
+    margin-top: 30px;
+    padding: 8px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+#signin {
+    width: 73px;
+
+    font-size: 16px;
+    padding: 9px 12px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: red;
+    margin-left: 21px;
+    cursor: pointer;
+}
+
+.part12 {
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#h2part2 {
+    margin-top: 144px;
+    font-size: 63px;
+    color: white;
+    font-weight: 600;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#h3part2 {
+    color: white;
+    margin-top: 12px;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 25px
+    
+}
+
+#h4part2 {
+    margin-bottom: 13px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+#email {
+    width: 490px;
+    padding: 26px;
+    border: none;
+}
+
+#getstarted {
+    width: 149px;
+    text-align: center;
+    padding: 13px;
+    margin-left: -4px;
+    padding-bottom: 25px;
+    margin-top: 11px;
+    background-color: red;
+    color: white;
+    padding-top: 19px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    height: 60vh;
+    background-color: black;
+    margin-top: 158px;
+}
+
+#h2container {
+    margin-left: 239px;
+    color: white;
+    margin-top: 115px;
+    font-size: 54px;
+}
+
+#h4container {
+    color: white;
+    margin-left: 239px;
+    font-size: 26px;
+    margin-top: 23px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.imgcontainer {
+    width: 537px;
+    margin-top: -2px;
+    margin-left: 122px;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));;
+
+}
+
+.mobile {
+    display: flex;
+    border: 2px solid black;
+    height: 60vh;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.mobileimg {
+    margin-left: 120px;
+    margin-top: 29px;
+    width: 472px;
+
+}
+
+.h1mobile {
+    color: white;
+    margin-top: 122px;
+    font-size: 50px;
+    line-height: 61px;
+    margin-left: 127px;
+
+}
+
+.h3mobile {
+    color: white;
+    font-size: 27px;
+    margin-left: 127px;
+    margin-top: 17px;
+    font-weight: 500;
+}
+
+.watch {
+    display: flex;
+    margin-top: 888px;
+    height: 69vh;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.h1watch {
+    color: white;
+    margin-left: 199px;
+    margin-top: 143px;
+    font-size: 56px;
+    font-size: 50px;
+}
+
+.h3watch {
+    color: white;
+    margin-left: 203px;
+    font-size: 27px;
+    margin-top: 10px;
+    line-height: 32px;
+    font-weight: 500
+}
+
+.imgwatch {
+    width: 528px;
+    margin-left: 100px;
+    margin-top: 54px;
+}
+
+.children {
+    display: flex;
+    background-color: black;
+    height: 64vh;
+    margin-top: 8px;
+}
+
+.imgchildren {
+    width: 524px;
+    margin-top: 56px;
+    margin-left: 176px;
+}
+
+.h1children {
+    color: white;
+    margin-top: 116px;
+    margin-left: 92px;
+    font-size: 50px;
+}
+
+.h4children {
+    color: white;
+    margin-left: 102px;
+    color: white;
+    font-size: 26px;
+    margin-top: 15px;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+
+.question {
+    height: 127vh;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h2question {
+    padding-top: 70px;
+    font-size: 48px;
+    padding-bottom: 44px
+}
+
+#question1 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    border: 2px solid black;
+    padding: 15px 598px 15px 26px;
+    cursor: pointer;
+}
+
+#question2 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 15px 413px 15px 26px;
+    cursor: pointer;
+
+}
+
+#question3 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 15px 539px 15px 26px;
+    cursor: pointer;
+}
+
+#question4 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 15px 570px 15px 26px;
+    cursor: pointer;
+}
+
+#question5 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 15px 428px 15px 26px;
+    cursor: pointer;
+}
+
+#question6 {
+    font-size: 30px;
+    background-color: #333333;
+    color: white;
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 15px 491px 15px 26px;
+    cursor: pointer;
+}
+
+.h3question {
+    margin-top: 62px;
+    margin-bottom: 21px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#emailquestion {
+    width: 499px;
+    padding: 26px;
+    border: none;
+}
+
+#getstartedquestion {
+    width: 240px;
+    text-align: center;
+    margin-left: -9px;
+    padding-bottom: 24px;
+    margin-top: 3px;
+    background-color: red;
+    color: white;
+    padding-top: 14px;
+    font-size: 27px;
+    cursor: pointer;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    margin-top: 10px;
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+.pfooter {
+    margin-top: 7px;
+    margin-bottom: 21px;
+    font-size: 15px;
+
+}
+
+.footer1 {
+    margin-left: 345px;
+    margin-top: 59px;
+    line-height: 30px;
+}
+
+.footer2 {
+    margin-left: 120px;
+    margin-top: 117px;
+    line-height: 30px;
+}
+
+.footer3 {
+    margin-left: 120px;
+    margin-top: 117px;
+    line-height: 30px;
+}
+
+.footer4 {
+    margin-left: 120px;
+    margin-top: 117px;
+    line-height: 30px;
+}
+
+#optionfooter {
+    margin-top: 31px;
+    padding: 15px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+#optionfooter:hover {
+    border: 1px solid white;
+}
+
+.createfooter {
+    margin-top: 17px;
+    margin-bottom: -9px
+}
+li {
+    list-style: none;
+}
